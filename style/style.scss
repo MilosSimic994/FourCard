@@ -1,0 +1,82 @@
+@font-face {
+    src: url(Poppines-Black.ttf);
+    font-family: Poppis;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+    height: 29vh;
+    
+    h1 {
+        font-size: 2.39rem;
+        font-weight: 100;
+    }
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        padding-bottom: 1rem;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 69vh;
+    width: 70vw;
+
+    #sup {
+        border-top: 5px solid rgb(132, 250, 187);
+    }
+    #team {
+        border-top: 5px solid rgb(231, 86, 86);
+    }
+
+    #karma {
+        border-top: 5px solid rgb(224, 205, 120);
+    }
+
+    #calc {
+        border-top: 5px solid rgb(49, 72, 204);
+    }
+
+
+    article {
+        width: 25rem;
+        height: 18rem;
+        // background: hsl(0, 0%, 98%);
+        
+        margin-bottom: 3rem;
+        padding: 2rem;
+        padding-top: 2rem;
+        box-shadow: rgb(177, 177, 177) 5px 5px 5px 5px;
+        position: relative; 
+        
+        h2 {
+            padding-bottom: 1rem;
+        }
+
+        img {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+        }
+    }
+}

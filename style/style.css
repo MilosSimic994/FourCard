@@ -1,0 +1,110 @@
+@font-face {
+  src: url(Poppines-Black.ttf);
+  font-family: Poppis;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fafafa;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+  text-align: center;
+  height: 29vh;
+}
+
+header h1 {
+  font-size: 2.39rem;
+  font-weight: 100;
+}
+
+header h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 69vh;
+  width: 70vw;
+}
+
+.container #sup {
+  border-top: 5px solid #84fabb;
+}
+
+.container #team {
+  border-top: 5px solid #e75656;
+}
+
+.container #karma {
+  border-top: 5px solid #e0cd78;
+}
+
+.container #calc {
+  border-top: 5px solid #3148cc;
+}
+
+.container article {
+  width: 25rem;
+  height: 18rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  padding-top: 2rem;
+  -webkit-box-shadow: #b1b1b1 5px 5px 5px 5px;
+          box-shadow: #b1b1b1 5px 5px 5px 5px;
+  position: relative;
+}
+
+.container article h2 {
+  padding-bottom: 1rem;
+}
+
+.container article img {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+/*# sourceMappingURL=style.css.map */
